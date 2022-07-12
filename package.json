@@ -4,9 +4,11 @@
   "description": "Conexiones HTTP con al app movil",
   "main": "index.js",
   "scripts": {
-    "test": "cors,HTTP",
     "start": "node index.js",
     "dev": "nodemon index.js --exec babel-node"
+  },
+  "engines": {
+    "node": "16.15.1"
   },
   "keywords": [
     "Nodemon",
